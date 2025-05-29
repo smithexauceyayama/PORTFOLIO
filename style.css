@@ -130,7 +130,7 @@ footer {
 @media (max-width:540px) {
     body {
         background-color:  #1b1818;
-        color: #f4f4f4;
+        color: #E0E0E0;
         font-size: 14px;
     }
     .header a {
@@ -140,7 +140,7 @@ footer {
         color: cornflowerblue;
     }
     .header-titel {
-        margin-left: -30%;
+        margin-left: -25%;
         padding-top: 10px;
         font-size: 18px;
 
