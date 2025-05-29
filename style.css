@@ -129,7 +129,7 @@ footer {
 }
 @media (max-width:540px) {
     body {
-        background-color: #333;
+        background-color:  #1b1818;
         color: #ffffff;
         font-size: 14px;
     }
@@ -160,11 +160,13 @@ footer {
         padding-bottom: 10px;
         color: darkgoldenrod;
     }
+    
     .police {
         text-align: justify;
         max-width: 500px;
         line-height: 22px;
-        padding-right: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .main{
         background-color: #000000;
