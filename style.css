@@ -7,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     background-color: #1b1818;
-    color: #ffffff;
+    color: #f4f4f4;
     
 }
 body a {
@@ -140,7 +140,7 @@ footer {
         color: cornflowerblue;
     }
     .header-titel {
-        margin-left: -10%;
+        margin-left: -15%;
         padding-top: 10px;
         font-size: 18px;
 
