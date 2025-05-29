@@ -140,7 +140,10 @@ footer {
         color: cornflowerblue;
     }
     .header-titel {
-        padding-left: 140px;
+        padding-left: 250px;
+        padding-top: 10px;
+        font-size: 18px;
+
     }
     .etudes {
         background-color: rgb(66, 56, 56);
@@ -174,5 +177,8 @@ footer {
     #photos {
         padding-bottom: 10px;
     }
-
+    .titel {
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
 }
