@@ -140,13 +140,13 @@ footer {
         color: cornflowerblue;
     }
     .header-titel {
-        margin-left: 15px;
+        margin-left: 5%;
         padding-top: 10px;
         font-size: 18px;
 
     }
     .header-image {
-        margin-left: 20%;
+        margin-left: 15%;
         width: 150px;
         height: 150px;
     }
