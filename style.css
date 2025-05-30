@@ -193,7 +193,9 @@ footer {
         display: none;
 
 =======
+    .header-image {
         margin-left: 30%;
+        width: 150px;
         height: 150px;
 >>>>>>> 8bafa662340d246ba19ae8221088479395023559
     }
