@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     background-color: #1b1818;
-    color: #f4f4f4;
+    color: #ffffff;
     
 }
 body a {
@@ -134,7 +134,7 @@ footer {
 @media (max-width:540px) {
     body {
         background-color:  #1b1818;
-        color: #E0E0E0;
+        color: #ffffff;
         font-size: 14px;
         position: relative;
     }
@@ -159,19 +159,13 @@ footer {
         flex-direction: column;
         display: none;
     }
-<<<<<<< HEAD
     #header-menu-masquer a {
         display: block;
-=======
-    .header-titel { 
-        margin-right: 20px;
->>>>>>> 8bafa662340d246ba19ae8221088479395023559
         padding-top: 10px;
         color: black;
         text-decoration: none;
 
     }
-<<<<<<< HEAD
     #header-menu-masquer h1 {
         text-align: center;
         color: black;
@@ -192,12 +186,6 @@ footer {
     .header-titel {
         display: none;
 
-=======
-    .header-image {
-        margin-left: 30%;
-        width: 150px;
-        height: 150px;
->>>>>>> 8bafa662340d246ba19ae8221088479395023559
     }
     .etudes {
         background-color: rgb(66, 56, 56);
