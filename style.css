@@ -11,6 +11,9 @@ body{
     color: #ffffff;
     
 }
+#header-menu-masquer {
+    display: none;
+}
 body a {
     text-decoration: none;
     color:red;
@@ -89,9 +92,6 @@ body a {
     display: flex;
     flex-wrap: wrap; 
     margin-left: 20px;
-}
-.images img {
-    
 }
 #photos {
     padding-left: 20px;
@@ -173,13 +173,13 @@ footer {
         font-size: 20px;
         padding-top: 20px;
     }
-    #header-menu-masquer li {
-        
-    }
     #btn-fermer {
         
         font-size: 30px;
        
+    }
+    .header-image {
+        margin-left: 30%;
     }
     .header-nav {
         display: none;
