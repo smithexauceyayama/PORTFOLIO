@@ -165,13 +165,13 @@ footer {
         right: 0;
         bottom:0;
         color: black;
-        width: 400px;
+        width: 280px;
     }
     #navbar-logo {
         width: 400px;
     }
     #navbar-clicable {
-        width: 100%;
+        width: 50px;
         height: 100%;
         background: transparent;
     }
@@ -179,10 +179,10 @@ footer {
         background-color: red;
         color:#fff;
         font-size: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: -9px;
     }
    #liens {
         padding-left: 10px;
