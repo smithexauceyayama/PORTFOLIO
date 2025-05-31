@@ -154,7 +154,7 @@ footer {
         color:cyan;
     }
     #navbar-cache {
-        display: flex;
+        display: none;
         flex-direction: row;
         background-color:#081b29;
         position: fixed;
