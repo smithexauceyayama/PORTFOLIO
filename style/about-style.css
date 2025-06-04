@@ -7,3 +7,7 @@
     color: cornflowerblue;
     padding-bottom: 20px;
 }
+#images {
+    display: flex;
+    background-color: red;
+}
