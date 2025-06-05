@@ -10,9 +10,9 @@ Je suis **SMITH EXAUCE YAYAMA**, développeur passionné spécialisé en HTML, C
 
 ## 🔧 Technologies utilisées
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
+- HTML5  
+- CSS3  
+- JavaScript (vanilla)  
 - Google Fonts
 
 ## 🖥️ Aperçu local
