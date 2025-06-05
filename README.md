@@ -1,29 +1,24 @@
 # 🌐 Portfolio de SMITH EXAUCE YAYAMA
 
-Bienvenue sur le dépôt de mon **portfolio personnel**, conçu pour présenter mon profil, mes projets et mes compétences en développement web.
+Bienvenue sur le dépôt de mon **portfolio personnel**, conçu pour mettre en avant mon parcours, mes compétences et mes projets web.
+
+🔗 **Voir le site en ligne :** [smithexauceyayama.github.io/PORTFOLIO](https://smithexauceyayama.github.io/PORTFOLIO)
 
 ## ✨ À propos
 
-Je suis **SMITH EXAUCE YAYAMA**, passionné par le développement web et la création d’expériences utilisateur modernes et élégantes.
-
-Ce portfolio inclut :
-
-- Une présentation personnelle
-- Une galerie de projets réalisés
-- Mes compétences techniques
-- Un formulaire de contact
+Je suis **SMITH EXAUCE YAYAMA**, développeur passionné spécialisé en HTML, CSS et JavaScript. Ce portfolio reflète mon style, mes projets récents et ma progression dans le domaine du développement web.
 
 ## 🔧 Technologies utilisées
 
 - HTML5
 - CSS3
-- JavaScript *(si applicable)*
+- JavaScript (vanilla)
 - Google Fonts
-- Font Awesome *(si utilisé)*
 
-## 🖥️ Aperçu
+## 🖥️ Aperçu local
 
-Pour voir le portfolio en local :
+Pour visualiser le site localement :
 
 ```bash
-ouvrir index.html dans ton navigateur
+# Ouvrir simplement dans un navigateur
+index.html
