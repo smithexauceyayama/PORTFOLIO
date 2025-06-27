@@ -67,5 +67,12 @@
       font-size: 22px;
       text-decoration: none;
     }
-    
+}
+@media (max-width:500px) {
+    #navbar-logo h1 {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        color:cyan;
+    }
 }
