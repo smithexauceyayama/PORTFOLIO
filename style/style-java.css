@@ -1,0 +1,71 @@
+@media (max-width:800px) {
+    #btn-menu {
+        display: block;
+        background-color: #1b1818;
+        color: white;
+        padding: 1px  2px;
+        border-radius: 10px;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: -37px;
+        float: right;
+    }
+    #navbar-logo h1 {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 30px;
+        color:cyan;
+    }
+    #navbar-cache {
+        display: none;
+        flex-direction: row;
+        /* background-color:#081b29; */
+        position: fixed;
+        align-items: start;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+        background: rgba(8, 27, 41, 0.9);
+    }
+    #navbar-logo {
+        width: 400px;
+    }
+    #navbar-clicable {
+        width: 50px;
+        height: 100%;
+        background: transparent;
+    }
+    #navbar-clicable button {
+        background-color: red;
+        color:#fff;
+        font-size: 30px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 20px;
+        margin-left: 2px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    #liens {
+        padding-left: 30px;
+        padding-top: 20px;
+        line-height: 30px;
+        color:#fff ;
+        list-style: none;
+    }
+    #liens li {
+        margin-bottom: 10px;
+    }
+    #liens a:hover {
+        color: red;
+    }
+    #liens li a {
+      color:#fff;
+      font-size: 22px;
+      text-decoration: none;
+    }
+    
+}

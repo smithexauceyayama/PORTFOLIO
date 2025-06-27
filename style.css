@@ -138,62 +138,6 @@ footer {
         font-size: 14px;
         position: relative;
     }
-    #btn-menu {
-        display: block;
-        background-color: #1b1818;
-        color: white;
-        padding: 10px 10px;
-        border-radius: 10px;
-        font-size: 40px;
-        cursor: pointer;
-    }
-    #navbar-logo h1 {
-        font-size: 16px;
-        padding-left: 10px;
-        padding-top: 30px;
-        color:cyan;
-    }
-    #navbar-cache {
-        display: none;
-        flex-direction: row;
-        background-color:#081b29;
-        position: fixed;
-        align-items: start;
-        z-index: 100;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom:0;
-        color: black;
-        width: 280px;
-    }
-    #navbar-logo {
-        width: 400px;
-    }
-    #navbar-clicable {
-        width: 50px;
-        height: 100%;
-        background: transparent;
-    }
-    #navbar-clicable button {
-        background-color: red;
-        color:#fff;
-        font-size: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: 20px;
-        margin-left: -9px;
-    }
-   #liens {
-        padding-left: 10px;
-        padding-top: 20px;
-        line-height: 30px;
-        color:#fff ;
-   }
-   #liens li a {
-      color:#fff;
-      font-size: 22px;
-   }
     .header-image {
         margin-left: 25%;
     }
