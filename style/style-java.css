@@ -70,9 +70,9 @@
 }
 @media (max-width:500px) {
     #navbar-logo h1 {
-        font-size: 18px;
+        font-size: 20px;
         padding-left: 20px;
-        padding-top: 20px;
+        padding-top: 40px;
         color:cyan;
     }
 }
