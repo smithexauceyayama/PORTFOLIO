@@ -1,0 +1,119 @@
+#body {
+    background-color: #0b1120;
+}
+#main-contact {
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#main-contact-title {
+    color: #3b82f6;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#card {
+    background-color: #1e293b;
+    max-width:1315px ;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#main-contact-header p {
+    color: #cbd5e1;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+a:hover {
+    transform: scale(1.1);
+}
+#card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+}
+#card-header img {
+    width: 38px;
+    margin-left: 20px;
+    color: #3b82f6;
+}
+#card-title {
+    color: #ffffff;
+    font-size: 18px;
+}
+#card-body {
+    text-align: center;
+    padding-top: 10px;
+    color: #cbd5e1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+#card2 {
+    background-color: #1e293b;
+    max-width:1315px ;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#note {
+    color: #ffffff;
+    padding-left: 20px;
+}
+#note2 {
+    color: #cbd5e1;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.7;
+}
+#card-header2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 18px;
+    
+}
+#card-header2 img {
+    width: 30px;
+    margin-left: 20px;
+    color: #3b82f6;
+}
+#card-title2 {
+    color: #ffffff;
+    font-size: 15px;
+}
+#card-header2 a img:hover {
+    transform: scale(1.1);
+}
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width:500px) {
+    #display {
+        flex-direction: column;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+}
+@media (max-width:384px) {
+    #display {
+        flex-direction: column;
+        padding-left:90px;
+        padding-right: 90px;
+       
+    }
+}
