@@ -106,6 +106,7 @@ body a {
 #titel2 {
     color: cornflowerblue;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 #images {
     display: flex;
