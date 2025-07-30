@@ -59,6 +59,7 @@ body a {
 }
 .header-nav {
     text-align: center;
+    margin-top: 200px;
     padding-bottom: 10px;
 }
 .main {
@@ -136,6 +137,9 @@ footer i {
     height: 300px;
     object-fit: cover;
 }
+    .header-nav {
+        display: none;
+    }
     body {
         font-size: 16px;
     }
