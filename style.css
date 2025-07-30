@@ -29,6 +29,12 @@ body a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.header {
+    background: url(./images/moi_defense.jpg) no-repeat center top /cover;
+    background-position: center 25%;
+    height: 400px;
+    object-fit: cover;
+}
 .header a {
     color: white;
     padding-left: 10px;
@@ -40,7 +46,7 @@ body a {
     color:crimson;
 }
 .header-image {
-    display: flex;
+    display: none;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -89,6 +95,21 @@ body a {
     margin-right: auto;
     
 }
+
+#Apropos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:cornflowerblue;
+    text-align: center;
+}
+#titel2 {
+    color: cornflowerblue;
+    padding-bottom: 20px;
+}
+#images {
+    display: flex;
+    background-color: red;
+}
 .images {
     display: flex;
     flex-wrap: wrap; 
@@ -110,6 +131,11 @@ footer i {
     color: white;
 }
 @media (max-width:800px) {
+    .header {
+    background: url(./images/moi_defense2.jpg) no-repeat center center/cover;
+    height: 300px;
+    object-fit: cover;
+}
     body {
         font-size: 16px;
     }
