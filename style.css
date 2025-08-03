@@ -183,12 +183,13 @@ footer i {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 10px;
-    gap: 15px;
+    gap: 10px;
+    padding-top: 10px;
 }
-#card-header img {
-    width: 38px;
-    margin-left: 20px;
+#card-header i {
+    margin-left: 5px;
     color: #3b82f6;
 }
 #card-title {
@@ -224,7 +225,7 @@ footer i {
     
 }
 #card-header2 a i {
-    color: red;
+    color: rgb(255, 0, 187);
 }
 #card-header2 img {
     width: 30px;
