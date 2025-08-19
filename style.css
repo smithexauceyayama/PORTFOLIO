@@ -74,12 +74,12 @@ body a {
     max-width:500px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     margin-left: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
     margin-right: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 5px;
     line-height: 25px;
     color: #fff;
+    padding: 15px;
+    text-align: justify;
 }
 .police {
     text-align: justify;
@@ -100,11 +100,12 @@ body a {
 #Apropos {
     padding-top: 20px;
     padding-bottom: 20px;
-    color:cornflowerblue;
+    line-height: 1.6;
+    color: #cbd5e1;
     text-align: center;
 }
 #titel2 {
-    color: cornflowerblue;
+    color: #fff;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -145,6 +146,13 @@ footer i {
     text-align: center;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+.texte {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    text-align: justify;
 }
 #card {
     background-color: #1e293b;
@@ -323,8 +331,8 @@ footer i {
         padding-top: 20px;
         margin-right: 20px;
         padding-bottom: 20px;
-        line-height: 25px;
-        color:cadetblue;
+        line-height: 1.6;
+        color: #cbd5e1;
         text-align: justify;
     }
     #Etudes {
@@ -339,6 +347,8 @@ footer i {
         line-height: 22px;
         padding-right: 20px;
         padding-left: 20px;
+        line-height: 1.6;
+        color: #cbd5e1;
     }
     .main{
         background-color: #000000;
