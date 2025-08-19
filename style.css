@@ -65,9 +65,17 @@ body a {
 .main {
     background-color:#081b29;
 }
+.container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .etudes-titel {
     padding-left: 20px;
     padding-bottom: 20px;
+    margin-top: 20px;
 }
 .etudes {
     background-color: rgb(66, 56, 56);
@@ -76,8 +84,8 @@ body a {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 5px;
-    line-height: 25px;
-    color: #fff;
+    line-height: 1.6;
+    color: #cbd5e1;
     padding: 15px;
     text-align: justify;
 }
