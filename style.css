@@ -12,7 +12,7 @@ body{
     color: #ffffff;
     
 }
-#navbar-cache{
+/* #navbar-cache{
     display: none;
 }
 body a {
@@ -61,7 +61,7 @@ body a {
     text-align: center;
     margin-top: 200px;
     padding-bottom: 10px;
-}
+} */
 .main {
     background-color:#081b29;
 }
@@ -129,7 +129,7 @@ body a {
 #photos {
     padding-left: 20px;
 }
-footer {
+/* footer {
     background-color: #1b1818;
     text-align: center;
     padding-top: 20px;
@@ -140,7 +140,7 @@ footer i {
     padding-left: 10px;
     padding-right: 10px;
     color: white;
-}
+} */
 /* Contact */
 
 #main-contact-title {
@@ -278,14 +278,14 @@ footer i {
 }
 /* responsive */
 @media (max-width:800px) {
-    .header {
+    /* .header {
     background: url(./images/moi_defense2.jpg) no-repeat center center/cover;
     height: 300px;
     object-fit: cover;
 }
     .header-nav {
         display: none;
-    }
+    } */
     body {
         font-size: 16px;
     }

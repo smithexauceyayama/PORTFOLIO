@@ -1,0 +1,280 @@
+/* ===== Reset rapide ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #1b1818;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #24292e;
+  color: #fff;
+  z-index: 1000;
+}
+
+.header h1 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #00c4ff;
+}
+
+#btn-menu {
+    display: none !important;
+}
+#navbar-cache {
+    display: none;
+}
+/* ===== Hero Section ===== */
+.bg {
+    background: url(../images/moi_defense.jpg) no-repeat center top /cover;
+    height: 500px;
+    background-position: center 25%;
+    object-fit: cover;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8%;
+  color: #fff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background: #fff;
+  color: #0073ff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #f1f1f1;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hero-image img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Overview Section ===== */
+.overview {
+  text-align: center;
+  padding: 4rem 8%;
+  background-color: #1b1818;
+}
+
+.overview h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0073ff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0073ff;
+}
+
+.card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #0073ff;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #24292e;
+  color: #fff;
+}
+
+footer a {
+  margin: 0 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #00c4ff;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .bg {
+        background: url(../images/moi_defense2.jpg) no-repeat center top /cover;
+    }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .header-nav {
+    display: none; /* pour mobile (ajout menu burger plus tard) */
+    position: relative;
+  }
+
+  #btn-menu {
+    display: block !important;
+    float: left !important;
+  }
+    #navbar-logo h1 {
+        font-size: 30px;
+        padding-left: 30px;
+        padding-top: 30px;
+        color:cyan;
+    }
+    #navbar-cache {
+        display: none;
+        flex-direction: row;
+        /* background-color:#081b29; */
+        position: fixed;
+        align-items: start;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+        background: rgba(8, 27, 41, 0.9);
+    }
+    #navbar-logo {
+        width: 400px;
+    }
+    #navbar-clicable {
+        width: 50px;
+        height: 100%;
+        background: transparent;
+    }
+    #navbar-clicable button {
+        background-color: red;
+        color:#fff;
+        font-size: 30px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 20px;
+        margin-left: 2px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    #liens {
+        padding-left: 30px;
+        padding-top: 20px;
+        line-height: 30px;
+        color:#fff ;
+        list-style: none;
+    }
+    #liens li {
+        margin-bottom: 10px;
+    }
+    #liens a:hover {
+        color: red;
+    }
+    #liens li a {
+      color:#fff;
+      font-size: 22px;
+      text-decoration: none;
+    }
+}

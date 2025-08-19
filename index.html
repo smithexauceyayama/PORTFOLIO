@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- SEO -->
-  <title>Smith Exaucé Yayama | Étudiant en Informatique & Développeur Web</title>
-  <meta name="description" content="Portfolio de Smith Exaucé Yayama – Étudiant en informatique, passionné de développement web et futur ingénieur logiciel, créateur de projets digitaux.">
-  <meta name="keywords" content="Smith Exaucé Yayama, développeur web, étudiant informatique, ingénieur logiciel, portfolio, projets numériques">
+  <title>Accueil | Smith Exaucé Yayama</title>
+  <meta name="description" content="Page d’accueil du portfolio de Smith Exaucé Yayama – Étudiant en informatique et futur ingénieur logiciel.">
   <meta name="author" content="Smith Exaucé Yayama">
-  
+    <link rel="icon" href="./images/apple-touch-icon.png">
   <!-- Styles -->
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./style/style-java.css">
+  <link rel="stylesheet" href="./style/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     
-    <header class="header">
-            <div>
-                <img src="./images/photoprofil.jpg" width="200px" class="header-image">
-            </div>
-            <nav class="header-nav">
-                <a href="./index.html">Etudes</a>
-                <a href="./pages/about.html">A propos</a>
-                <a href="./pages/vision.html">Vision</a>
-                <a href="pages/contact.html">Contact</a>
+  <!-- HEADER -->
+  <header class="header">
+            <h1 class="header-title">SMITH EXAUCE YAYAMA</h1>
+             <nav class="header-nav">
+                <a href="../index.html">Accueil</a>
+                <a href="/pages/etudes.html">Etudes</a>
+                <a href="/pages/about.html">A propos</a>
+                <a href="/pages/vision.html">Vision</a>
+                <a href="/pages/contact.html">Contact</a>
             </nav>
             <button id="btn-menu">&#9776;</button>
     </header>
@@ -33,10 +31,11 @@
         <div id="navbar-logo" id="navbar-clicable">
             <h1>SMITH EXAUCE YAYAMA</h1>
             <ul id="liens">
-            <li class="lien"><a href="./index.html">Etudes</a></li>
+            <li class="lien"><a href="../index.html">Accueil</a></li>
+            <li class="lien"><a href="./pages/etudes.html">Etudes</a></li>
             <li class="lien"><a href="./pages/about.html">A propos</a></li>
             <li class="lien"><a href="./pages/vision.html">Vision</a></li>
-            <li class="lien"><a href="pages/contact.html">Contact</a></li>
+            <li class="lien"><a href="./pages/contact.html">Contact</a></li>
         </ul>
         </div>
         <div  id="navbar-clicable">
@@ -44,69 +43,64 @@
         </div>
 
     </div>
-    <main class="main">
-    <h1 class="header-titel">SMITH EXAUCE YAYAMA</h1>
-    <br><br>
-    <div class="container">
-        <section class="etudes">
-        <div>
-            <p>
-                <em>Smith Exaucé YAYAMA</em>, de son vrai nom <strong>Exaucé YAYAMA</strong> – Étudiant en informatique et futur ingénieur logiciel, engagé dans le développement de solutions numériques modernes.
-            </p>
-        </div>
-    </section>
 
-    <h1 id="Etudes" class="etudes-titel">Études</h1>
-
-    <section class="etudes">
-        <div id="Apropos">
-            <h4>Études primaires</h4>
-            <p>
-                Établissement : <strong>Collège de la Sagesse</strong>, situé à <strong>Matadi, province du Kongo Central</strong> <br>
-                Parcours : de la 1ʳᵉ à la 6ᵉ année primaire <br><br>
-                <strong>Certificat</strong> obtenu à l’issue du 
-                <strong>Test National de Fin d’Études Primaires (TENAFEP)</strong>.
-            </p>
-        </div>
-    </section>
-    <br>
-
-    <section class="etudes">
-        <div>
-            <h4>Études secondaires et humanités</h4>
-            <p>
-                Établissement : <strong>Collège Ntetembwa</strong>, situé à <strong>Matadi, province du Kongo Central</strong> <br>
-                Parcours : de la 7ᵉ à la 8ᵉ année de l’éducation de base, puis de la 1ʳᵉ à la 4ᵉ année des humanités <br><br>
-                Section : <strong>Technique</strong> | Option : <strong>Électronique</strong> <br><br>
-                <strong>Diplôme d’État</strong> obtenu à l’issue des <strong>Examens d’État (Exetat)</strong>.
-            </p>
-        </div>
-    </section>
-    <br>
-
-    <section class="etudes">
-        <div>
-            <h4>Études supérieures</h4>
-            <p>
-                Institution : <strong>Université Protestante au Congo (UPC)</strong>, située à <strong>Kinshasa, République Démocratique du Congo</strong> <br>
-                Parcours : en cours de deuxième année de licence (L2) dans le système LMD <br>
-                Faculté : <strong>Sciences Informatiques</strong>
-            </p>
-        </div>
-    </section>
+  <!-- HERO SECTION -->
+  <div class="bg">
+    <section class="hero">
+    <div class="hero-text">
+      <h2>👋 Bienvenue sur mon portfolio</h2>
+      <p>
+        Je suis <strong>Smith Exaucé Yayama</strong>, étudiant en informatique et futur ingénieur logiciel.  
+        Passionné par la <em>programmation</em>, le <em>web</em> et la création de solutions numériques innovantes.
+      </p>
+      <div class="hero-buttons">
+        <a href="./pages/about.html" class="btn">En savoir plus</a>
+        <a href="./pages/etudes.html" class="btn btn-secondary">Voir mes études</a>
+      </div>
     </div>
+    <!-- <div class="hero-image">
+      <img src="../images/moitheologie.jpg" alt="Photo de Smith Exaucé Yayama" width="280" height="280">
+    </div> -->
+  </section>
+  </div>
+
+  <!-- SECTION APERÇU -->
+  <section class="overview">
+    <h3>Ce que vous trouverez ici</h3>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-user-graduate"></i>
+        <h4>Études</h4>
+        <p>Mon parcours académique du primaire à l’université.</p>
+        <a href="./pages/etudes.html">Explorer</a>
+      </div>
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h4>Projets</h4>
+        <p>Mes réalisations et projets en développement web et logiciels.</p>
+        <a href="./pages/vision.html">Découvrir</a>
+      </div>
+      <div class="card">
+        <i class="fas fa-lightbulb"></i>
+        <h4>Vision</h4>
+        <p>Mon ambition en tant que futur ingénieur logiciel.</p>
+        <a href="./pages/vision.html">Lire</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a target="_blank" href="https://www.linkedin.com/in/smith-exauce-yayama-003034343"><i class="fab fa-linkedin"></i></a>
+    <a target="_blank" href="https://www.facebook.com/exauceyayama"><i class="fab fa-facebook"></i></a>
+    <a target="_blank" href="https://www.instagram.com/smithexauceyayama"><i class="fab fa-instagram"></i></a>
+    <a target="_blank" href="https://www.x.com/exauceyayama"><i class="fab fa-x-twitter"></i></a>
+    <a target="_blank" href="https://github.com/smithexauceyayama"><i class="fab fa-github"></i></a>
+    <a href="tel:+243992521830"><i class="fas fa-phone"></i></a>
+    <a href="mailto:exauceyayama@gmail.com"><i class="fas fa-envelope"></i></a>
     <br><br>
-</main>
-    <footer id="Contact">
-        <a target="_blank" href="https://www.linkedin.com/in/smith-exauce-yayama-003034343"><i class="fab fa-linkedin"></i></a>
-        <a target="_blank" href="https://www.facebook.com/exauceyayama"><i class="fab fa-facebook"></i></a>
-        <a target="_blank" href="https://www.instagram.com/smithexauceyayama"><i class="fab fa-instagram"></i></a>
-        <a target="_blank" href="https://www.x.com/exauceyayama"><i class="fab fa-x-twitter"></i></a>
-        <a target="_blank" href="https://www.github.com/smithexauceyayama"><i class="fab fa-github-alt"></i></a>
-        <a href="tel:+243992521830"><i class="fas fa-phone"></i></a>
-        <a href="mailto:exauceyayama@gmail.com"><i class="fas fa-envelope"></i></a><br><br>
-        &copy; 2025 Conçu et dévellopé par SMITH EXAUCE YAYAMA
-    </footer>
-    <script src="script.js/script.js"></script>
+    &copy; 2025 Conçu et développé par SMITH EXAUCÉ YAYAMA
+  </footer>
+<script src="./script.js/script.js"></script>
 </body>
 </html>
