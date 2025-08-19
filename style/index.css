@@ -11,7 +11,9 @@ body {
   color: #222;
   line-height: 1.6;
 }
-
+.header-title {
+    font-size: 20px;
+}
 /* ===== Header ===== */
 .header {
   display: flex;
