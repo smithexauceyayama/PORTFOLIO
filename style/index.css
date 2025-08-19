@@ -53,7 +53,6 @@ body {
 /* ===== Hero Section ===== */
 .bg {
     background: url(../images/moi_defense.jpg) no-repeat center top /cover;
-    height: 500px;
     background-position: center 25%;
     object-fit: cover;
 }
