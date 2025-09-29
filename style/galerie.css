@@ -1,0 +1,32 @@
+.galerie-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-galerie {
+    background-color: #9e9b9b;
+    padding: 20px;
+}
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.carte {
+    width: 300px;
+    background-color: #2b302e;
+}
+.carte img {
+    width: 100%;
+}
+.texte-carte {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.texte-carte p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
