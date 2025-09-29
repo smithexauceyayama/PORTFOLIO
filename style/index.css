@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #24292e;
+  background: #24292e !important;
   color: #222;
   line-height: 1.6;
 }
