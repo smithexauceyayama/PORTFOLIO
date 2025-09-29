@@ -203,6 +203,59 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+/* ===== Skills Section ===== */
+.skills {
+  padding: 4rem 8%;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00c4ff;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill {
+  background: #2c3136;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00c4ff;
+}
+
+.skill h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+  color: #fff;
+}
+
+.skill p {
+  font-size: 1rem;
+  color: #cfd8dc;
+}
+
+.skill:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.22);
+}
 
 @media (max-width:500px) {
     #display {
