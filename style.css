@@ -14,56 +14,7 @@ body{
 .bg {
     height: 400px;
 }
-/* #navbar-cache{
-    display: none;
-}
-body a {
-    text-decoration: none;
-    color:red;
-    
-}
-#btn-menu {
-    display: none;
-}
-.header {
-    background-color: #1b1818;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.header {
-    background: url(./images/moi_defense.jpg) no-repeat center top /cover;
-    background-position: center 25%;
-    height: 400px;
-    object-fit: cover;
-}
-.header a {
-    color: white;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-.header a:hover {
-    background-color: rgb(255, 255, 255, 0.2);
-    color:crimson;
-}
-.header-image {
-    display: none;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.header-titel {
-    text-align: center;
-    padding-top: 20px;
-}
-.header-nav {
-    text-align: center;
-    margin-top: 200px;
-    padding-bottom: 10px;
-} */
+
 .main {
     background-color:#081b29;
 }
@@ -104,9 +55,12 @@ body a {
 .police {
     margin-left: auto;
     margin-right: auto;
-    
 }
 
+.main-vision {
+    background-color: #000000;
+    padding-bottom: 20px;
+}
 #Apropos {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -131,19 +85,6 @@ body a {
 #photos {
     padding-left: 20px;
 }
-/* footer {
-    background-color: #1b1818;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-}
-footer i {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-} */
-/* Contact */
 
 #main-contact-title {
     color: #3b82f6;
